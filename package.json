@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "build": "webpack"
+    "build": "webpack --mode development"
   },
   "repository": {
     "type": "git",
@@ -14,17 +14,17 @@
   "author": "David Ramiro",
   "license": "ISC",
   "devDependencies": {
-    "@babel/plugin-transform-runtime": "^7.13.10",
-    "@babel/preset-env": "^7.13.10",
-    "@babel/preset-react": "^7.12.13",
+    "@babel/plugin-transform-runtime": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.2.2",
     "faker": "^5.4.0",
     "jest": "^26.6.3",
-    "webpack": "^5.27.2",
-    "webpack-cli": "^4.5.0"
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
   },
   "dependencies": {
-    "@babel/runtime": "^7.13.10",
+    "@babel/runtime": "^7.3.4",
     "@types/jest": "^26.0.21",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
