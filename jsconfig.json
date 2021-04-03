@@ -1,1 +1,9 @@
-{ "typeAcquisition": { "include": ["jest"] } }
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es6"
+  },
+  "exclude": ["node_modules"],
+  "include": ["./src/**/*"],
+  "typeAcquisition": { "include": ["jest"] }
+}
